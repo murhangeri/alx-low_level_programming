@@ -3,8 +3,9 @@
 #include <stdio.h>
 
 /*
- * main - entry point
- * print random numbers
+ * main- prints if random number is positive or negative
+ * @n: is random number printed
+ *
  * return: always zero
  */
 
