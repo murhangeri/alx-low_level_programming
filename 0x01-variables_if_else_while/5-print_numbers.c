@@ -1,15 +1,15 @@
 #include <stdio.h>
 /*
- * main: print decinal digits
+ * main - print decinal digits
  *
- * return: always zero
+ * Return: always zero
  */
 
 int main(void)
 {
 	int a = 0;
 
-	for (int i = 0; i < 10; i++)
+	while (a < 10)
 	{
 		putchar(a);
 		a++;
