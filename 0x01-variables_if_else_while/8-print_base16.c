@@ -21,7 +21,7 @@ int main(void)
 		}
 		else
 		{
-			putchar('A' + a);
+			putchar('a' + a);
 			a++;
 		}
 	}
