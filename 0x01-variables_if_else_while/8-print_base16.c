@@ -20,9 +20,10 @@ int main(void)
 			s++;
 		}
 		else
+		{
 			putchar('A' + a);
-		a++;
-		a = a - s;
+			a++;
+		}
 	}
 	putchar('\n');
 	return (0);
