@@ -14,13 +14,13 @@ int main(void)
 	while (i < 16)
 	{
 		i++;
-		if (i < 10)
+		if (i <= 10)
 		{
 			putchar('0' + s);
 			s++;
 		}
 		else
-			putchar('A' + i);
+			putchar('A' + a);
 		a++;
 		a = a - s;
 	}
