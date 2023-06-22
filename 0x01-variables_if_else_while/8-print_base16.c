@@ -9,19 +9,20 @@ int main(void)
 {
 	int i = 0;
 	int a = 0;
+	int s = 0;
 
 	while (i < 16)
 	{
-
+		i++;
 		if (i < 10)
 		{
-			putchar('0' + i);
-			i++;
+			putchar('0' + s);
+			s++;
 		}
 		else
 			putchar('A' + i);
 		a++;
-		a = a - i;
+		a = a - s;
 	}
 	putchar('\n');
 	return (0);
