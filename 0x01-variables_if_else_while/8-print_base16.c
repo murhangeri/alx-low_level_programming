@@ -8,16 +8,20 @@
 int main(void)
 {
 	int i = 0;
+	int a = 0;
 
 	while (i < 16)
 	{
-		i++;
+
 		if (i < 10)
 		{
 			putchar('0' + i);
+			i++;
 		}
 		else
 			putchar('A' + i);
+		a++;
+		a = a - i;
 	}
 	putchar('\n');
 	return (0);
