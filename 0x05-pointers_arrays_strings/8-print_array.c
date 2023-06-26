@@ -8,11 +8,12 @@
 
 void print_array(int *a, int n)
 {
-	int ar[0] = *a;
+	int ar[n];
 	int i = 0;
 
-	while (*s != '\0' && i < n)
+	while (*a != '\0' && i < n)
 	{
+		ar[i] = *a;
 		printf("%d, ", ar[i]);
 		i++;
 		s++;
