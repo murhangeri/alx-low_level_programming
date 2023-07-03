@@ -1,5 +1,5 @@
 #include "main.h"
-#include <sring.h>
+#include <string.h>
 /**
  * _memcpy - copies n bytes from memory area src to memory area dest
  * @src: input where memory area is copied
