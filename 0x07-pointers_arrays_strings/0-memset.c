@@ -1,9 +1,9 @@
 #include "main.h"
 #include <string.h>
 /**
- * _memcpy - copy memory area
- * @dest: input
- * @src: input to store memory
+ * _memset - fillsmemory area
+ * @s: input pointer
+ * @b: input
  * @n: number of bytes
  *
  * Return: return value is memory copied
