@@ -21,11 +21,11 @@ void print_diagsums(int *a, int size)
 		{
 			if (c == b)
 			{
-				sum = sum + a[c*size + b];
+				sum = sum + a[c * size + b];
 			}
 			if (b == (size - c - 1))
 			{
-				sum2 = sum2 + a[size*(c + 1) - c - 1];
+				sum2 = sum2 + a[size * (c + 1) - c - 1];
 			}
 		}
 		b = 0;
