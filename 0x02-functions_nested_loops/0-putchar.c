@@ -4,7 +4,7 @@
  *
  * Retun: 0 always 
  */
-int main(void)
+int main()
 {
 	_putchar('_');
 	_putchar('p');
