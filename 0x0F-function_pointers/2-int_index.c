@@ -1,6 +1,4 @@
 #include "function_pointers.h"
-#include <stdio.h>
-#include <stdbool.h>
 
 /**
  * int_index - return index of array after compare
