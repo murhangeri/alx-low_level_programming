@@ -3,16 +3,16 @@
 #include <stdlib.h>
 
 /**
- * main - function
- * @argc: number of arguments
- * @argv: pointer of array with arguments
+ * main - main program
+ * @argc: input number of argument
+ * @argv: input array pointer to argument
  *
  * Return: always zero
  */
 
 int main(int argc, char *argv[])
 {
-	(void)argc;
-	printf("%s\n", argv[0]);
+	(void)*argv;
+	printf("%d\n", argc);
 	return (0);
 }
