@@ -19,7 +19,7 @@ list_t *add_node(list_t **head, const char *str)
 	if (node == NULL)
 		return (NULL);
 	node->str = allocatespace(str);
-	while (str[count] != '\0')
+	while (str[i] != '\0')
 		i++;
 	node->len = i;
 	node->next = *head;
