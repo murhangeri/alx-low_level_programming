@@ -11,6 +11,6 @@ int main()
 {
 	char str[] = __FILE__;
 
-	printf('%s\n',str);
+	printf("%s\n",str);
 	return (0);
 }
