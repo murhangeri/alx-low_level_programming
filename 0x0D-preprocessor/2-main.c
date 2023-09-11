@@ -7,10 +7,10 @@
  * Return: always zero
  */
 
-int main()
+int main(void)
 {
 	char str[] = __FILE__;
 
-	printf("%s\n",str);
+	printf("%s\n", str);
 	return (0);
 }
